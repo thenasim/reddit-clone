@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/thenasim/reddit-clone#readme",
   "devDependencies": {
+    "@types/express": "^4.17.9",
     "@types/node": "^14.14.10",
     "nodemon": "^2.0.6",
     "ts-node": "^9.0.0",
@@ -29,8 +30,13 @@
     "@mikro-orm/cli": "^4.3.2",
     "@mikro-orm/core": "^4.3.2",
     "@mikro-orm/postgresql": "^4.3.2",
+    "apollo-server-express": "^2.19.0",
+    "class-validator": "^0.12.2",
     "dotenv": "^8.2.0",
-    "pg": "^8.5.1"
+    "express": "^4.17.1",
+    "graphql": "^15.4.0",
+    "pg": "^8.5.1",
+    "type-graphql": "^1.1.1"
   },
   "mikro-orm": {
     "useTsNode": true,
@@ -40,6 +46,6 @@
     ]
   },
   "volta": {
-    "node": "14.15.1"
+    "node": "14.15.4"
   }
 }
